@@ -1,0 +1,16 @@
+.cardStat{
+    margin-left:-59px;
+    margin-top: 90px;
+}
+.cardDetailStat{
+    margin-right: 141px;
+    margin-top: 10px;
+    border-radius: 59px 59px 59px 59px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:793px){
+    .cardStat{
+       visibility: hidden;
+    }
+}

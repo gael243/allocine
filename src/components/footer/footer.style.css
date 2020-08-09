@@ -1,0 +1,39 @@
+.containerss{
+    border: 1px solid black;
+    height: 158px;
+    background: #032541;
+}
+
+.linkfooter  li{
+    list-style: none;
+    color: white;
+    font-size:20px ;
+}
+.socialfooter li{
+    list-style: none;
+    color: white;
+    font-size:20px 
+}
+.titlefooter{
+    margin-left: -90px;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+}
+@media screen and (max-width:793px){
+    .containerss{
+        border: 1px solid black;
+        height: 458px;
+        background: #032541;
+    }
+    .titlefooter{
+        margin-left: 35px;
+        color: rgba(0, 0, 0, 0.69);
+        font-family: Rhodium Libre;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+    }
+}

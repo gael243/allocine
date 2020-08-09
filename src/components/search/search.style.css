@@ -1,0 +1,33 @@
+.search{
+    margin-left: 1090px;
+    position: relative;
+    top:25px;
+    font-size: 20px;
+}
+.containeSearch{
+  
+    margin-left: -60px;
+    margin-top:-10px;
+}
+.form{
+
+    width: 1190px;
+}
+
+@media screen and (max-width:793px){
+    .search{
+        margin-left: 295px;
+        position: relative;
+        top:25px;
+        font-size: 20px;
+    }
+    .containeSearch{
+        margin-left: -26px;
+        margin-top:-10px;
+    }
+    .form{
+
+        width: 365px;
+    }
+
+}

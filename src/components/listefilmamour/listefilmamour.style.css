@@ -1,0 +1,12 @@
+.listfilm{
+    margin-top: 10px;
+}
+.pagenatin{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+@media screen and (max-width:793px){
+    .listfilm{
+        margin-top: -490px;
+    }
+}

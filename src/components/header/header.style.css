@@ -1,0 +1,72 @@
+.linkheader{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 550px;
+}
+.linkheader li{
+    margin-left: 30px;
+    list-style: none;
+    font-size:20px ;
+    color: white;
+}
+.titleheader{
+    margin-left: -90px;
+    color: white;
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+}
+.containers{
+    border: 1px solid black;
+    height: 50px;
+    background: #032541;
+    width: 1300px; 
+    position: fixed;
+    z-index: 5;
+}
+
+.sousTitle{
+    margin-top: 100px;
+    margin-left: -80px;
+    font-size: 20px;  
+    color: white;
+    font-weight: bold;
+}
+.container2{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url('https://cinescover.files.wordpress.com/2020/04/bannier-a-envoyer.png?w=1200');
+
+    background-size: 100% 390px;
+    height: 250px;
+    margin-left: 1px;
+
+}
+
+@media screen and (max-width:793px){
+    .titleheader{
+        margin-left: -10px;
+        color: white;
+        font-family: Rhodium Libre;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .sousTitle{
+        margin-top: 100px;
+        margin-left: -2px;
+        font-size: 17px;  
+        color: #032541;
+        font-weight: bold;
+    }
+    .linkheader{
+        display: flex;
+        margin-top: -30px;
+        margin-left: 87px;
+    }
+    .linkheader li{
+        margin-left: 10px;
+        list-style: none;
+        font-size:15px ;
+        color: white;
+    }
+}

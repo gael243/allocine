@@ -1,0 +1,34 @@
+.details{
+    margin-top: 10px;
+    font-size: 19px;
+}
+.imgdetail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details dl dd.with-colon:before {
+    content: ": ";
+}
+@media screen and (max-width: 575px) {
+    .details dl dd.with-colon:before {
+        content: " ";
+    }
+}
+
+@media screen and (max-width:793px){
+    .details{
+        margin-top: 10px;
+        font-size: 11px;
+        margin-left: 16px;
+    } 
+    .imgdetail{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 10px 10px 10px 10px white;
+    }
+    .imgdetail img{
+        width:100%;
+        margin-left: 5px;
+    } 
+}
