@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 7px;
     margin-left: 550px;
+    visibility: hidden;
 }
 .linkheader li{
     margin-left: 30px;
