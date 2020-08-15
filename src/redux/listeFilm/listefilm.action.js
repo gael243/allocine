@@ -39,6 +39,7 @@ export const getFilms=(page)=>{
                 backdrop_path:element.backdrop_path,
                 original_title:element.original_title,
                 title:element.title,
+                release_date:element.release_date,
                 vote_average:element.vote_average,
                 overview:element.overview,
                 page:response.data.total_pages

@@ -42,12 +42,14 @@ const paginate = (e) => {
                     <ReactBoostrap.Row>
                     {loading?(<div>chargement...</div>):(
                     tableauFilm.map((film)=>
-                    <ReactBoostrap.Col xs={12} lg={4}>
-                    <ReactBoostrap.Card>
-                            <ReactBoostrap.Card.Body>
-                            <ReactBoostrap.Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500/${film.poster_path}`} width="1900px"  />
-                <ReactBoostrap.Card.Text><strong>{film.title}</strong></ReactBoostrap.Card.Text>
-                <ReactBoostrap.Card.Text><Link to={'/detailfilm/'+film.id}>voir le détail du film</Link></ReactBoostrap.Card.Text>
+                    <ReactBoostrap.Col xs={12} lg={3}>
+                   
+                    <ReactBoostrap.Card className="cardimg">
+                            <ReactBoostrap.Card.Body className="bodycard">
+                            <Link to={'/detailfilm/'+film.id}><ReactBoostrap.Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500/${film.poster_path}`}/></Link> 
+                            <div className="cardText">
+                                <ReactBoostrap.Card.Text className="titles"><strong>{film.title}</strong></ReactBoostrap.Card.Text>
+                            </div>
                             </ReactBoostrap.Card.Body>
                         </ReactBoostrap.Card>
                     </ReactBoostrap.Col>

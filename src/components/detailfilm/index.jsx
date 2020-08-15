@@ -38,7 +38,7 @@ export default function DetailFilm() {
   
   return (
       <div>
-          <ReactBoostrap.Container fluid className="bg-white px-md-5">
+          <ReactBoostrap.Container fluid className="bg-white px-md-5 topcard">
               {
                   detailfilm.map((res)=>
                     <ReactBoostrap.Row className="mx-md-5 py-5">

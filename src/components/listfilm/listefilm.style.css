@@ -3,10 +3,32 @@
 }
 .pagenatin{
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 250px !important;
+}
+.cardimg{
+    margin-top: 40px;
+    width: 200px;
+    min-height: 500px;
+    padding: 0;
+}
+.titles{
+    font-size: 18px;
+}
+.bodycard{
+    padding: 0px !important;
+}
+.cardText{
+    padding: 20px;
+}
+.cardimg img{
+    max-width: 100%;
 }
 @media screen and (max-width:793px){
     .listfilm{
         margin-top: -490px;
     }
+    .pagenatin{
+        margin-top: 10px;
+        margin-left:-53px !important;
+      }
 }

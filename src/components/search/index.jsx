@@ -29,7 +29,7 @@ const recherche=((e)=>{
                 <ReactBoostrap.Row>
                     <ReactBoostrap.Col xs="12">
                         <ReactBoostrap.Form className="form" >
-                            <FaSearch className="search"/><ReactBoostrap.Form.Control className="containeSearch" size="lg" type="text" onChange={recherche}   placeholder="Rechercher un Film..."/>
+                           <ReactBoostrap.Form.Control className="containeSearch" size="lg" type="text" onChange={recherche}   placeholder="Rechercher un Film..."/>
                         </ReactBoostrap.Form>
                     </ReactBoostrap.Col>
                 </ReactBoostrap.Row>

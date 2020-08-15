@@ -16,7 +16,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Provider store={store}>
-      <div style={{backgroundColor:"#C4C4C4"}}>
+      <div >
           <BrowserRouter>
           <Header/>
                 <switch>
@@ -27,7 +27,7 @@ function App() {
                       <Route exact path='/' component={Home}/>
                       <Route exact path='/detailfilm/:id' component={DetailFilm}/>
                 </switch>
-            <Footer/>
+            {/* <Footer/> */}
           </BrowserRouter>
  
         </div>

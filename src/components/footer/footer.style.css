@@ -1,18 +1,18 @@
 .containerss{
     border: 1px solid black;
     height: 158px;
-    background: #032541;
+    background: #343A40;
 }
 
 .linkfooter  li{
     list-style: none;
     color: white;
-    font-size:20px ;
+    font-size:18px ;
 }
 .socialfooter li{
     list-style: none;
     color: white;
-    font-size:20px 
+    font-size:18px 
 }
 .titlefooter{
     margin-left: -90px;
