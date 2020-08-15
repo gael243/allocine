@@ -9,7 +9,7 @@ export default function index(){
 
     return(
         <div className="containers">
-                    <div>
+                    <div className="carddetail">
                         <CardStatFilm/>
                     </div>
                     <div>
