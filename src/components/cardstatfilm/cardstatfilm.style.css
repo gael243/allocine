@@ -1,6 +1,9 @@
 .cardstat{
     background-color: #C4C4C4;
 }
+.listecard{
+    margin-top: 20px;
+}
 .listegenre{
     list-style: none;
     padding: 10px;

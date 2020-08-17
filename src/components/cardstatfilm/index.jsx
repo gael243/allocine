@@ -16,7 +16,7 @@ export default function CardStatFilm(){
     return(
         <ReactBoostrap.Card>
             <ReactBoostrap.Card.Body className="cardstat">
-                <ul>
+                <ul className="listecard">
                     {
                      categorie.map((response)=>
                     <li className="listegenre">{response.genres}</li>
