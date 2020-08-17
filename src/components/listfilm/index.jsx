@@ -4,6 +4,7 @@ import { getFilms } from '../../redux/listeFilm/listefilm.action';
 import './listefilm.style.css';
 import * as ReactBoostrap from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import Loader from 'react-loader-spinner';
 
 export default function ListFilms() {
 
